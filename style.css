@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,500&display=swap');
+* {
+  font-family: 'open sans', sans-serif;
+}
+
+/* Navbar Styling */
+nav {
+ height: 87px;
+ position: sticky;
+ z-index: 10;
+}
+.logo {
+  margin-left: 122px;
+}
+.menu {
+  margin: 0;
+}
+.menu li {
+  list-style: none;
+  margin: 0 50px 0 50px;
+}
+.menu li:hover {
+  height: 80px;
+  padding-top: 29px;
+}
+.dropdown-item {
+  color: #1b1b1b;
+  font-size: 14px;
+  vertical-align: middle;
+  margin: 0 20px 0 20px ;
+  
+}
+.dropdown-item:hover {
+  border-bottom: 4px solid #0081b7;
+  
+}
+.dropdown-item:hover + .menu>li>i {
+  padding-top: 29px;
+}
+.search-box {
+  border-left: 1px solid ;
+  border-color: rgba(00, 00, 00, 0.122);
+  height: 85px;
+}
+nav .icon-list i {
+  margin: 0 20px 0 20px;
+}
+nav .icon-list img {
+  margin: 0 40px 0 20px;
+}
+.search-box p {
+  opacity: 0.431;
+  margin-left: 30px;
+  margin-bottom: 0;
+}
+.search-box i {
+  margin: 0 50px 0 80px;
+}
+/* End of Navbar Styling */
+
+/* Banner Styling */
+.banner {
+  position: relative;
+  top: -90px ;
+}
+.banner>img {
+  width: 100%;
+  height: auto;
+}
+.banner>div {
+  position: absolute;
+  top: 35%;
+  margin-left: 122px;
+  
+}
+.banner>div>p:first-child {
+  font-size : 51px;   /* font size for banner text*/
+  font-weight: 400;
+  text-transform: uppercase;
+  color: white;
+}
+.banner>div>p:first-child span {
+  color: #fdc11f;
+  font-weight: 700;
+  font-size: 61px;
+}
+.banner>div>p:nth-child(2) {
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+}
+.banner>div>button {
+  width: 256px;
+  height: 62px;
+  border-radius: 8px;
+  color: white;
+  background-color: #0081b7;
+  border: none;
+  font-size: 22px;
+  font-weight: 400;
+}
+/* End of Banner Styling */
+
+/* Clients Base Styling */
+.clients-base {
+  width: 100%;
+  padding: 100px 0 100px 0;
+  background-color: white;
+}
+.clients-base>p {
+  font-size: 38px;
+  color:#1b1b1b ;
+  font-weight: 700;
+  text-align: center;
+}
+.clients-base>div {
+  margin-top: 100px;
+}
+.clients-base>div>.item {
+  background-image: url(images/background-images/item-bg.png);
+  width: 380px;
+  height: 121px;
+  margin: 0 10px;
+}
+.clients-base>div>.item>.number {
+  color: #fdc11f;
+  font-size: 48px;
+  font-weight: 700;
+  background: linear-gradient(225deg, #dedede, #ffffff);
+  background-color: #f7f7f7;
+  padding: 10px 30px 10px 30px;
+  border-radius: 50%;
+  box-shadow: -5px 5px 10px #e3e3e3, 5px -5px 10px #ffffff;
+  margin-left: 10px;
+  margin-bottom: 0;
+  margin-right: 40px;
+}
+.clients-base>div>.item>p {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #1a1f1a;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+/* End of Clients Base Styling */
+
+/* About Us STyling */
+.about-us {
+  background-color: #dedede;
+}
+.about-us img {
+  margin: 60px 0px 60px 0px;
+}
+.about-us>div p {
+  width:592px;
+  font-size: 14px;
+  line-height: 21px;
+  color: #393939;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 60px;
+}
+.about-us>div p:first-child {
+  font-weight: 700;
+  font-size: 38px;
+  color: #1b1b1b;
+  margin-top: 122px;
+}
+
+.about-us>div>button {
+    width: 256px;
+    height: 62px;
+    border-radius: 8px;
+    color: white;
+    background-color: #0081b7;
+    border: none;
+    font-size: 22px;
+    font-weight: 400;
+
+}
+/* End of About Us Styling */
+
+/* Database Order Styling */
+.db-order {
+  width: 100%;
+  padding: 100px 0 100px 0;
+  background-color: white;
+}
+.db-order>p {
+  font-size: 38px;
+  color:#1b1b1b ;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.db-order>div {
+  width: 80%;
+}
+.first, .second {
+  position: relative;
+}
+.db-order>div p {
+  font-size: 29px;
+  text-transform: uppercase;
+  color: 38373c;
+  font-weight: 400;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  background-color:rgba(246, 246, 246, 0.820);  
+  width: 100%;
+  margin-bottom: 0;
+}
+.db-order>div p span {
+  font-weight: 700;
+}
+/* End of Database Order Styling */
+
+/* Best Sells STyling */
+.best-sells {
+  background-color: #f5f5f5;
+  padding: 80px 122px 80px 122px;
+}
+.best-sells>p {
+  font-weight: 700;
+  font-size: 38px;
+  color: #1b1b1b;
+  margin-bottom: 60px;
+}
+.elements-list {
+  margin: 0 30px 0 30px;
+}
+.element {
+  margin: 0 40px;
+}
+.element>.card {
+  width: 268px;
+  height: 268px;
+  background-image: url(images/background-images/element-bg.png);
+}
+.first>.card>img {
+  width: 163px;
+  height: 163px;
+}
+.second>.card>img {
+  width: 245px;
+  height: 236px;
+}
+.third>.card>img {
+  width: 178px;
+  height: 178px;
+}
+.fourth>.card>img {
+  width: 243px;
+  height: 236px;
+}
+.element>p {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #1a1f1a;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 15px;
+}
+/* End of Best Sells Styling */
+
+/* Reassurance Styling */
+.reassurance {
+  margin: 80px 0;
+  height: 200px;
+  padding: 0 140px;
+  position: relative;
+}
+.reassurance p {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #1a1f1a;
+  font-weight: 700;
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+.reassurance span {
+  font-weight: 400;
+}
+.reassurance>div>img {
+  width: 65px;
+  height: 65px;
+}
+.reassurance>div:nth-child(2)>img {
+  width: 67px;
+  height: 48px;
+}
+.contact {
+  position: absolute;
+  top: 68%;
+  height: 250px;
+  background-color: #0082b8;
+  width: 1154px;
+  border-radius: 8px;
+}
+.contact>p {
+  background-image: url(images/background-images/contact-bg.png);
+  background-repeat: no-repeat;
+  height: 100%;
+  font-size: 39px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  width: 290px;
+  padding-top: 65px;
+  padding-left: 10px;
+}
+.contact>form {
+  padding: 23px 0;
+  height: 225px;
+  justify-content: space-around;
+  position: relative;
+}
+.contact>form>input::placeholder {
+  color: rgba(246, 246, 246, 0.4);
+  font-size: 18px;
+  font-weight: 400;
+  
+}
+.contact>form>input {
+  border: none;
+  border-bottom: 1px solid #f5f5f5;
+  width: 299px;
+  background-color: transparent;
+  padding: 25px;
+  margin: 0px 45px;
+}
+.contact>form>button {
+  width: 186px;
+    height: 46px;
+    border-radius: 7px;
+    background-color: white;
+    color: #0082b8;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 45px;
+    justify-self: flex-end;
+    position: relative;
+    top: 25px;
+}
+.contact>form>input:nth-child(2) {
+  padding-top: 15px;
+}
+/* End of Reassurance Styling */
+
+/* Footer Styling */
+footer{
+  background-color: #37373b;
+  height: 562px;
+  width: 100%;
+  padding-top: 10%;
+}
+footer>div>.company>div>p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19px;
+  color: white;
+  width: 290px;
+  text-align: justify;
+  margin-top: 30px;
+}
+footer>div>.info>p {
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 20px 0 35px 0;
+}
+footer>div>.info>.info-item {
+  margin-bottom: 10px;
+}
+footer>div>.info>.info-item>p {
+  font-size: 13px;
+  line-height: 22px;
+  color: white;
+  font-weight: 400;
+  margin-left: 15px;
+  margin-bottom: 0;
+}
+footer>div>.security>p {
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 20px 0 35px 0;
+}
+footer>div>.security>div>div>.bg {
+  background-image: url(images/footer/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  width: 84px;
+  height: 33px;
+  margin: 5px 5px 0 0;
+}
+footer>div>.links>p {
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 20px 0 35px 0;
+}
+footer>div>.links>div>p {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+  color: white;
+  text-align: left;
+}
+footer>.copy-right {
+  background-color: rgba(00, 00, 00, 0.271);
+  width: 100%;
+  height: 40px;
+}
+footer>.copy-right>div{
+  width: 387px;
+}
+footer>.copy-right>div>p {
+  color: rgba(246, 246, 246, 0.231);
+  font-size: 9px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-family: 'Nunito sans',sans-serif;
+  margin: 0;
+}
+/* End of Footer Styling */
