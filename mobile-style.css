@@ -1,0 +1,306 @@
+@media screen and (max-width: 480px) {
+  body {
+    width: 100% !important;
+  }
+  /* Navbar Mobile Styling */
+  nav {
+    height: 67px;
+  }
+  .logo {
+    margin-left: 10px;
+    width: 20%;
+  }
+  .menu>li>.dropdown-item {
+    display: none;
+  }
+  .menu>li {
+    margin: 0 5px;
+  }
+  .menu li:hover {
+    height: 80px;
+    padding-top: 32px;
+  }
+  nav .icon-list i {
+    margin: 0 10px 0 10px;
+  }
+  nav .icon-list img {
+    margin: 0 10px 0 0px;
+  }
+  .search-box p {
+    margin-left: 10px;
+    font-size: small;
+  }
+  .search-box i {
+    margin: 0 10px 0 20px;
+  }
+  /* End of Navbar Mobile Styling */
+  /* Banner Mobile Styling */
+  .banner {
+    position: relative;
+    top: -19px ;
+  }
+  .banner>div {
+    position: absolute;
+    top: 23%;
+    margin-left: 12px;
+  }
+  .banner>div>p:first-child {
+    font-size : 12px;   /* font size for banner text*/
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+  }
+  .banner>div>p:first-child span {
+    color: #fdc11f;
+    font-weight: 700;
+    font-size: small;
+  }
+  .banner>div>p:nth-child(2) {
+    color: white;
+    font-size: 8px;
+    font-weight: 400;
+  }
+  .banner>div>button {
+    width: 75px;
+    height: 25px;
+    border-radius: 8px;
+    color: white;
+    background-color: #0081b7;
+    border: none;
+    font-size: 9px;
+    font-weight: 400;
+  }
+  /* End of Banner Mobile Styling */
+  /* Clients Base Mobile Styling */
+  .clients-base {
+    padding: 30px 0 30px 0;
+  }
+  .clients-base>p {
+    font-size: 20px;
+  }
+  .clients-base>div {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .clients-base>div>.item {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 320px;
+    height: 121px;
+    margin: 8px 10px;
+  }
+  .clients-base>div>.item>.number {
+    font-size: 38px;
+    margin-right: 20px;
+  }
+  .clients-base>div>.item>p {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  /* End of Clients Base Mobile Styling */
+  /* About Us Mobile STyling */
+  .about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #dedede;
+  }
+  .about-us img {
+    margin: 60px 0px 0px 0px;
+    width: 90%;
+  }
+  .about-us>div {
+    align-items: center;
+  }
+  .about-us>div p {
+    width:95%;
+    font-size: 14px;
+    text-align: justify;
+    margin-bottom: 40px;
+  }
+  .about-us>div p:first-child {
+    font-size: 35px;
+    margin-top: 45px;
+    text-align: center;
+  }
+  .about-us>div>button {
+      width: 156px;
+      height: 42px;
+      font-size: 15px;
+      margin-bottom: 40px;
+  }
+  /* End of About Us Mobile Styling */
+  /* Database Order Mobile Styling */
+.db-order {
+  padding: 30px 0 30px 0;
+}
+.db-order>p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.db-order>div {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+.db-order>div>.item>img {
+  width: 100%;
+}
+.first, .second {
+  margin: 8px;
+}
+.db-order>div p {
+  font-size: 18px;
+}
+/* End of Database Order Mobile Styling */
+/* Best Sells Mobile STyling */
+.best-sells {
+  padding: 40px 22px 40px 22px;
+}
+.best-sells>p {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+.elements-list {
+  margin: 0 30px 0 30px;
+}
+.element {
+  margin: 0 10px;
+}
+.third, .fourth {
+  display: none;
+}
+.element>.card {
+  width: 150px;
+  height: 150px;
+  background-size: contain;
+}
+.first>.card>img {
+  width: 123px;
+  height: 123px;
+}
+.second>.card>img {
+  width: 140px;
+  height: 136px;
+}
+.element>p {
+  font-size: 14px;
+}
+.best-sells>div {
+  position: relative;
+}
+.best-sells>div>i {
+  position: absolute;
+}
+.best-sells>div>.fa-chevron-left {
+  left: 0px;
+}
+.best-sells>div>.fa-chevron-right {
+  right: 0px;
+} 
+/* End of Best Sells Mobile Styling */
+/* Reassurance Mobile Styling */
+.reassurance {
+  margin: 30px 0;
+  height: auto;
+  padding: 0 0 60% 0;
+  flex-wrap: wrap;
+}
+.reassurance>div {
+  margin: 15px;
+}
+.reassurance p {
+  font-size: 18px;
+}
+.reassurance>div>img {
+  width: 55px;
+  height: 55px;
+}
+.reassurance>div:nth-child(2)>img {
+  width: 57px;
+  height: 40px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 60%;
+  height: auto;
+  width: 90%;
+}
+.contact>p {
+  background-size: contain;
+  background-position: center;
+  font-size: 29px;
+  width: 290px;
+  padding: 25px 0 25px 0;
+  text-align: center;
+}
+.contact>form {
+  padding: 13px 0;
+  height: auto;
+}
+.contact>form>input::placeholder {
+  font-size: 15px;  
+}
+.contact>form>input {
+  width: 220px;
+  background-color: transparent;
+  padding: 25px;
+  margin: 5px 45px;
+}
+.contact>form>button {
+  width: 126px;
+    height: 36px;
+    font-size: 13px;
+    margin: 0px 0px 30px 45px; 
+}
+.contact>form>input:nth-child(2) {
+  padding-top: 15px;
+}
+/* End of Reassurance Mobile Styling */
+/* Footer Mobile Styling */
+footer{
+  height: auto;
+  padding-top: 80%;
+}
+footer>div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer>div>.company>div>p {
+  width: 230px;
+}
+footer>div>.info {
+  width: 230px;
+}
+footer>div>.info>p {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 20px 0 35px 0;
+}
+footer>div>.security {
+  width: 230px;
+}
+footer>div>.links {
+  width: 230px;
+}
+footer>.copy-right {
+  height: auto;
+}
+footer>.copy-right>div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer>.copy-right>div>p {
+  margin: 5px 0;
+}
+/* End of Footer Mobile Styling */
+}

@@ -13,8 +13,12 @@ nav {
 .logo {
   margin-left: 122px;
 }
+.dropdown-menu {
+  display: none;
+}
 .menu {
   margin: 0;
+  display: flex;
 }
 .menu li {
   list-style: none;
@@ -29,11 +33,9 @@ nav {
   font-size: 14px;
   vertical-align: middle;
   margin: 0 20px 0 20px ;
-  
 }
 .dropdown-item:hover {
   border-bottom: 4px solid #0081b7;
-  
 }
 .dropdown-item:hover + .menu>li>i {
   padding-top: 29px;
@@ -72,7 +74,6 @@ nav .icon-list img {
   position: absolute;
   top: 35%;
   margin-left: 122px;
-  
 }
 .banner>div>p:first-child {
   font-size : 51px;   /* font size for banner text*/
@@ -116,6 +117,9 @@ nav .icon-list img {
 }
 .clients-base>div {
   margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 .clients-base>div>.item {
   background-image: url(images/background-images/item-bg.png);
@@ -149,6 +153,9 @@ nav .icon-list img {
 
 /* About Us STyling */
 .about-us {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   background-color: #dedede;
 }
 .about-us img {
@@ -169,7 +176,6 @@ nav .icon-list img {
   color: #1b1b1b;
   margin-top: 122px;
 }
-
 .about-us>div>button {
     width: 256px;
     height: 62px;
@@ -197,6 +203,10 @@ nav .icon-list img {
   margin-bottom: 60px;
 }
 .db-order>div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
   width: 80%;
 }
 .first, .second {
@@ -205,7 +215,7 @@ nav .icon-list img {
 .db-order>div p {
   font-size: 29px;
   text-transform: uppercase;
-  color: 38373c;
+  color: #38373c;
   font-weight: 400;
   text-align: center;
   position: absolute;
@@ -294,6 +304,10 @@ nav .icon-list img {
   height: 48px;
 }
 .contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
   position: absolute;
   top: 68%;
   height: 250px;
@@ -359,6 +373,11 @@ footer{
   width: 100%;
   padding-top: 10%;
 }
+footer>div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 footer>div>.company>div>p {
   font-size: 12px;
   font-weight: 400;
@@ -423,6 +442,10 @@ footer>.copy-right {
 }
 footer>.copy-right>div{
   width: 387px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 footer>.copy-right>div>p {
   color: rgba(246, 246, 246, 0.231);
